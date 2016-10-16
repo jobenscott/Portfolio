@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+	background-color: #f9f9f9;
+	z-index: -50;
+}
+
+.body-class-hidden {
+	overflow: hidden;
+}
+
+.white-ribbon {
+	z-index: -20;
+	background-color: white;
+	display: inline-block;
+}
+
+.hero-frame {
+	position: absolute;
+	z-index: 40;
+	border: solid black 0.5px;
+	border-radius: 100%;
+}
+
+.hero-image {
+	position: absolute;
+	top: -65px;
+	/*border-radius: 100%;*/
+}
+
+.hero-title {
+	position: absolute;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.next-section-container {
+	position: absolute;
+	bottom: 20;
+}
+
+.next-section {
+	display: inline-block;
+}
+
+.section-circle {
+	border-radius: 100%;
+	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	line-height: 5;
+	font-size: 20px;
+	color: #262626;
+}
+
+/*section circle colors*/
+.hobbies {background-color: #9999f0;}
+.interests {background-color: #99cc8a}
+.work {background-color: #ffdb8a}
+.skills {background-color: #cc99bd}
+
+
+.hidden {
+	display: none;
+}
+
+.block-alert {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	line-height: 20;
+	z-index: 120;
+}
